@@ -10,8 +10,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     networks:
-      - db
+      - db1
 networks:
-  db:
-    name: db
-#    external: true
+  db1:
+    name: db1
+    driver: bridge
