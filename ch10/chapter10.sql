@@ -1,0 +1,6 @@
+\c template1;
+CREATE ROLE luca;
+-- OR
+CREATE ROLE luca
+    WITH NOCREATEROLE
+    NOCREATEDB;
